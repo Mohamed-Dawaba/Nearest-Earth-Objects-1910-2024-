@@ -58,11 +58,14 @@ To evaluate model performance, the following metrics were used:
 
 ### 4. Results
 
-| Model                 | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
-|-----------------------|----------|-----------|---------|----------|---------|
-| Logistic Regression    | 0.92     | 0.85      | 0.80    | 0.82     | 0.89    |
-| Random Forest          | 0.94     | 0.88      | 0.86    | 0.87     | 0.93    |
-| Support Vector Machine | 0.91     | 0.83      | 0.78    | 0.80     | 0.87    |
+| Model                  | Accuracy | Precision | Recall  | F1-Score | AUC-ROC |
+|----------------------- |----------|-----------|---------|----------|---------|
+| Logistic Regression    |   0.92   |   0.85    |   0.80  |   0.82   |   0.89  |
+| Random Forest          |   0.94   |   0.88    |   0.86  |   0.87   |   0.93  |
+| Support Vector Machine |   0.91   |   0.83    |   0.78  |   0.80   |   0.87  |
+| Decision Tree:         |   0.92   |   0.91    |   0.92  |   0.92   |   0.92  |
+| K-Nearest Neighbors:   |   0.90   |   0.85    |   0.98  |   0.91   |   0.95  |
+| Neural Network:        |   0.84   |   0.76    |   0.98  |   0.86   |   0.89  |
 
 - The **Random Forest** classifier had the highest **AUC-ROC** of 0.93, indicating excellent performance in distinguishing between hazardous and non-hazardous NEOs.
 
